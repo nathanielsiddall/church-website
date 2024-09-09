@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sunday School",
+    "description": "A deep dive into the Word of God.",
+    "time": "Sundays at 9:30 AM"
+  },
+  {
+    "name": "Sunday Worship",
+    "description": "Join us for a time of worship and teaching.",
+    "time": "Sundays at 10:30 AM"
+  },
+  {
+    "name": "Grief Share",
+    "description": "If you’re grieving a loved one’s death, you can find comfort, direction, and peace of mind at a GriefShare grief recovery support group",
+    "time": "Mondays at 9:00 PM"
+  },
+  {
+    "name": "Adult Bible Study",
+    "description": "Gain a better understanding of the Scriptures.",
+    "time": "Wednesdays at 7:00 PM"
+  },
+  {
+    "name": "Youth Bible Study",
+    "description": "Youth coming together for worship, teaching, and fun activities.",
+    "time": "Wednesdays at 7:00 PM"
+  },
+  {
+    "name": "Mission Activities",
+    "description": "Be active for missions (need to know what this actually is)",
+    "time": "Wednesdays at 7:00 PM"
+  }
+]

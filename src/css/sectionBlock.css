@@ -1,0 +1,7 @@
+.custom-toggler .p-fieldset-legend {
+    color: white;
+}
+
+.custom-toggler .p-fieldset-legend:hover {
+    /*background-color: #505050;*/
+}

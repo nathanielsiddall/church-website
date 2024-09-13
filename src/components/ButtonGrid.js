@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Use useNavigate instead of useHistory
 
 const ButtonGrid = () => {
     const [activeIndex, setActiveIndex] = useState(null);
+    const navigate = useNavigate(); // Use navigate for navigation
 
     const buttons = [
         { label: 'About Us', to: '/about-us' },
@@ -12,21 +14,21 @@ const ButtonGrid = () => {
         { label: 'Our Schedule', to: '/our-schedule' }
     ];
 
-    const handleClick = (index) => {
+    const handleClick = (index, to) => {
         setActiveIndex(index);
+        navigate(to); // Use navigate instead of history.push
     };
 
     return (
         <div className="button-bar">
             {buttons.map((btn, index) => (
-                <a
-                    href={btn.to}
+                <button
                     key={index}
                     className={`button ${activeIndex === index ? 'active' : ''}`}
-                    onClick={() => handleClick(index)}
+                    onClick={() => handleClick(index, btn.to)}
                 >
                     {btn.label}
-                </a>
+                </button>
             ))}
 
             <style>{`
@@ -35,7 +37,6 @@ const ButtonGrid = () => {
                     flex-wrap: nowrap;
                     justify-content: space-between;
                     width: 100%;
-                    
                     z-index: 1000; /* Ensure it appears on top of other content */
                     position: sticky;
                     top: 0; /* Stick to the top of the page */
@@ -45,13 +46,12 @@ const ButtonGrid = () => {
                     flex: 1;
                     text-align: center;
                     padding: 5px;
-                    text-decoration: none;
-                    color: #000;
                     background-color: #FBFBFC;
                     border: 1px solid #ccc;
                     box-sizing: border-box;
                     height: 40px;
                     line-height: 30px;
+                    cursor: pointer;
                     transition: background-color 0.3s ease, color 0.3s ease;
                 }
                 .button:hover,

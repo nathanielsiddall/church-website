@@ -29,7 +29,7 @@ const Hero = () => {
 
     const videoStyle = {
         position: 'absolute',
-        top: `${scrollY * 1.5}px`,  // Adjusts based on scroll position for parallax effect
+        top: `${scrollY * 1.5}px`,
         left: 0,
         width: '100%',
         height: '100%',
@@ -74,7 +74,7 @@ const Hero = () => {
     return (
         <div style={parallaxStyle}>
             <video autoPlay muted loop style={videoStyle}>
-                <source src="dummyHeroVideo.mp4" type="video/mp4" />
+                <source src="/church-website/dummyHeroVideo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div style={heroTextStyle}>

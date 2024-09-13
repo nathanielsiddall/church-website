@@ -7,7 +7,7 @@ const WhatWeBelieve = () => {
         <div className="container">
             <div className="video-container">
                 <video autoPlay loop muted id="backgroundVideo">
-                    <source src="dummyHeroVideo.mp4" type="video/mp4" />
+                    <source src="/church-website/dummyHeroVideo.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="overlay"></div>

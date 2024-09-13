@@ -1,29 +1,13 @@
 import React from 'react';
 import Hero from "../components/Hero";
-import Card from "../components/IndexCard";
+//import Card from "../components/IndexCard";
 import ScheduleOfServices from "../components/ScheduleOfServices";
 import 'primeicons/primeicons.css';
 import ChurchMap from "../components/ChurchMap";
 import ButtonGrid from "../components/ButtonGrid";
 
 
-import ScrollableImageGrid from "../components/ScrollableImageGrid";
-
-
-
-
-
-const images = [
-    { src: "https://picsum.photos/1200", alt: "Image 1" },
-    { src: "https://picsum.photos/1200", alt: "Image 2" },
-    { src: "https://picsum.photos/1200", alt: "Image 3" },
-    { src: "https://picsum.photos/1200", alt: "Image 4" },
-    { src: "https://picsum.photos/1200", alt: "Image 5" },
-    { src: "https://picsum.photos/1200", alt: "Image 6" },
-    { src: "https://picsum.photos/1200", alt: "Image 7" },
-    { src: "https://picsum.photos/1200", alt: "Image 8" },
-    { src: "https://picsum.photos/1200", alt: "Image 9" },
-];
+//import ScrollableImageGrid from "../components/ScrollableImageGrid";
 
 const Index = () => {
     const scrollableContentStyle = {

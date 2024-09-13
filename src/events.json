@@ -1,0 +1,82 @@
+[
+  {
+    "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=YouthGroup",
+    "name": "Sunday Service (Not)",
+    "description": "Join us for our weekly Sunday worship service.",
+    "audience": "Everyone",
+    "date": "2024-09-12",
+    "time": "10:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=YouthGroup",
+    "name": "Youth Group (Not)",
+    "description": "A gathering for teens to learn and grow in their faith.",
+    "audience": "Teens",
+    "date": "2024-09-12",
+    "time": "6:00 PM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/008000/FFFFFF?text=MensBibleStudy",
+    "name": "Men's Bible Study (Not)",
+    "description": "A Bible study focused on helping men grow in their faith.",
+    "audience": "Men",
+    "date": "2024-09-12",
+    "time": "7:00 PM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/800080/FFFFFF?text=WomenBibleStudy",
+    "name": "Women's Bible Study",
+    "description": "A Bible study for women to fellowship and study together.",
+    "audience": "Women",
+    "date": "2024-10-22",
+    "time": "6:30 PM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  },
+  {
+    "image": "https://via.placeholder.com/150/FFA500/FFFFFF?text=ChildrensMinistry",
+    "name": "Children's Ministry",
+    "description": "A fun and engaging session for children to learn about Jesus.",
+    "audience": "Children",
+    "date": "2024-10-25",
+    "time": "9:00 AM"
+  }
+]

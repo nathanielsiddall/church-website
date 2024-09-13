@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card } from 'primereact/card';
 import VideoGallery from "../components/VideoGallery";
 import VideoList from '../VideoList.json'
 

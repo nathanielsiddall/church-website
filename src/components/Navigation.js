@@ -2,25 +2,27 @@ import React, { useState } from 'react';
 import { Menubar } from 'primereact/menubar';
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu } from 'primereact/menu';
+import invertedChurchLogo from './PinecrestBicolorInverted.svg';
 
 const Navigation = () => {
     const [showMenu, setShowMenu] = useState(false);
     const location = useLocation();
+    const navigate = useNavigate();
 
     const items = [
         { label: 'About Us', icon: 'pi pi-fw pi-home', to: '/about-us' },
         { label: 'What We Believe', icon: 'pi pi-fw pi-book', to: '/what-we-believe' },
         { label: 'Our Media', icon: 'pi pi-fw pi-video', to: '/our-media' },
         { label: 'Contact Us', icon: 'pi pi-fw pi-envelope', to: '/contact-us' },
-        { label: 'Learn', icon: 'pi pi-fw pi-pencil', to: '/Learn' },
+        { label: 'Learn', icon: 'pi pi-fw pi-pencil', to: '/learn' },
         { label: 'Our Schedule', icon: 'pi pi-fw pi-calendar', to: '/our-schedule' },
     ];
 
     const logo = (
         <Link to="/">
-            <img src={`${process.env.PUBLIC_URL}/pinecrestBicolorInverted.svg`} className="mr-5" height="80" alt="logo" />
+            <img src={invertedChurchLogo} className="mr-5" height="80" alt="logo" />
         </Link>
     );
 
@@ -50,7 +52,7 @@ const Navigation = () => {
                             className="w-full md:w-15rem"
                             model={items.map(item => ({
                                 ...item,
-                                command: () => window.location.href = item.to
+                                command: () => navigate(item.to)
                             }))}
                         />
                     </Sidebar>
@@ -59,14 +61,13 @@ const Navigation = () => {
                 <Menubar
                     model={items.map(item => ({
                         ...item,
-                        command: () => window.location.href = item.to
+                        command: () => navigate(item.to) // Use navigate instead of window.location.href
                     }))}
                     start={logo}
                     style={{
                         position: 'sticky',
                         top: 0,
                         zIndex: 100000, // High z-index to stay above the video and overlay
-                        // backgroundColor: '#333'
                     }}
                 />
             )}

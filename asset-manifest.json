@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/church-website/static/css/main.fb1ab959.css",
-    "main.js": "/church-website/static/js/main.e0479409.js",
+    "main.css": "/church-website/static/css/main.7cf3086b.css",
+    "main.js": "/church-website/static/js/main.6ae7a965.js",
     "static/js/453.1ff2ac4d.chunk.js": "/church-website/static/js/453.1ff2ac4d.chunk.js",
     "static/media/PinecrestBicolorInverted.svg": "/church-website/static/media/PinecrestBicolorInverted.a0365eaae038ff898c0ec3f419b890cc.svg",
     "static/media/pinecrestTricolor.svg": "/church-website/static/media/pinecrestTricolor.74fbaf8041d2557ff9da4e806c63755b.svg",
@@ -11,12 +11,12 @@
     "static/media/primeicons.ttf": "/church-website/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/primeicons.woff2": "/church-website/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/church-website/index.html",
-    "main.fb1ab959.css.map": "/church-website/static/css/main.fb1ab959.css.map",
-    "main.e0479409.js.map": "/church-website/static/js/main.e0479409.js.map",
+    "main.7cf3086b.css.map": "/church-website/static/css/main.7cf3086b.css.map",
+    "main.6ae7a965.js.map": "/church-website/static/js/main.6ae7a965.js.map",
     "453.1ff2ac4d.chunk.js.map": "/church-website/static/js/453.1ff2ac4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb1ab959.css",
-    "static/js/main.e0479409.js"
+    "static/css/main.7cf3086b.css",
+    "static/js/main.6ae7a965.js"
   ]
 }
